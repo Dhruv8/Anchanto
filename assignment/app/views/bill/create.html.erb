@@ -1,0 +1,37 @@
+Create bill
+
+<%= form_for @bill do |f| %>
+    Total Amount
+
+    <%= f.text_field :total_amount %>
+    <br>
+    Location
+    <%= f.text_field :location %>
+    <br>
+    Date
+    <%= f.text_field :date%>
+    <br>
+    Event
+    <%= f.select :date , [1,2,3]%>
+    <br>
+    Between whom to split
+    <br>
+    Amar
+        <%= f.check_box :date%>
+    Akbar
+    <%= f.check_box :date%>
+    Anthony
+    <%= f.check_box :date%>
+    <br>
+    Who all are paying
+    <br>
+    Amar
+    <%= f.check_box :date%>
+    Akbar
+    <%= f.check_box :date%>
+    Anthony
+    <%= f.check_box :date%>
+    <%= f.submit "Add Bill" %>
+<%end%>
+
+<%= link_to "Show" , show_bill_path%>

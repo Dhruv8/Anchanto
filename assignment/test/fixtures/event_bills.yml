@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  bill_paid: false
+  amount_paid: 1
+  amount_remaining: 1
+
+two:
+  bill_paid: false
+  amount_paid: 1
+  amount_remaining: 1
